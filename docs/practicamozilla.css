@@ -1,0 +1,171 @@
+html {
+    font-family: sans-serif;
+  }
+body{
+    background-color: cadetblue;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*background-image: url(imagenes/atom.png);
+    
+    background-repeat: space;*/
+}
+.caja{
+    width: 90%;
+    height: 90%;
+    border: 2px solid rgba(0,0,200,0.6);
+    position: relative;
+    top: 200px;
+    background: rgba(0,0,200,0.3);
+    color: rgba(7, 7, 7, 0.788);
+    /*background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;*/
+}
+
+
+
+[class^="cajitas-"]{
+    width: 25px;
+    height: 25px;
+    /* border: solid black 3px;  */
+    position: absolute;
+
+}
+.cajitas-1{
+    /* border: brown solid 3px;    */
+    left: 25vw;
+    top: 90vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-2{
+    left: 30vw;
+    top: 5vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-3{
+    right: 65vw;
+    top: 20vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-4{
+    left: 55vw;
+    top: 15vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-5{
+    left: 63vw;
+    top: 64vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-6{
+    right: 60vw;
+    top: 85vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-7{
+    right: 70vw;
+    top: 50vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-8{
+    right: 55vw;
+    top: 40vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-9{
+    left: 40vw;
+    top: 15vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-10{
+    right: 37vw;
+    top: 10vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-11{
+    right:45vw;
+    top: 95vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-12{
+    left: 50vw;
+    top: 85vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-13{
+    right: 55vw;
+    top: 5vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-14{
+    left: 65vw;
+    top: 44vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-15{
+    right: 65vw;
+    top: 70vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+.cajitas-16{
+    left: 50vw;
+    top: 60vh;
+    background-image: url(imagenes/atom.png);
+    background-repeat: no-repeat;
+}
+
+.caja:hover{
+    border: 6px double rgba(0,0,200,0.6);
+    /* margin-top: 10vh;     */
+}
+
+.form{
+    color: rgba(7, 7, 7, 0.788);
+    font-size: 30px;
+}
+
+.guesses{
+    font-size: 20px;
+}
+
+ .lastResult{
+    font-size: 30px;
+    font-family: helvetica neue;
+} 
+
+.guessField{
+    width: 150px;
+    height: 25px;
+    color: rgb(85, 88, 235);
+}
+
+.guessSubmit{
+    color:black;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+.guessSubmit:active{
+    background-color:  rgba(0,0,200,0.6) ;
+}
